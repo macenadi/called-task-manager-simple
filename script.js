@@ -33,7 +33,7 @@ function updateStatus()
         // Success: Remove red border and show greeting
         inputField.classList.remove("input-error");
         msgPara.innerText = "Hello, " + name + "!";
-        msgPara.style.color = "black";
+        msgPara.style.color = "red";
         }
     }
 
