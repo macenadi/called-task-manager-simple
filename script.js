@@ -16,7 +16,7 @@ function updateStatus()
     const inputField = document.getElementById("user-name");
     const name = inputField.value;
     const msgPara = document.getElementById("greeting-msg");
-    msgPara.innerText = "Hello, " + name + "!";
+    msgPara.innerText = "Helloo, " + name + "!";
     }
 
 
